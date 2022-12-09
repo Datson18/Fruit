@@ -1,0 +1,42 @@
+@import "variable";
+
+@mixin important-head {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $clr;
+}
+
+@mixin important-btn {
+    font-weight: $font-weight;
+    font-family: $font-family;
+    color: $white-clr;
+    background-color: $clr;
+    text-align: $text-align;
+
+}
+
+@mixin product-para {
+    font-size: $font-s;
+    font-weight: $font-weight;
+    font-family: $font-family;
+    color: $clr;
+    text-align: $text-align;
+
+}
+
+@mixin product-h {
+    font-size: $font-s;
+    font-weight: $font-weight;
+    font-family: $font-family;
+    color: $color;
+    text-align: $text-align;
+}
+
+@mixin about-h{
+    font-size: $font-s;
+    font-weight: $font-weight;
+    font-family: $font-family;
+    color: $clrw;
+    
+}

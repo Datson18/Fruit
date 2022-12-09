@@ -1,0 +1,765 @@
+@import "mixin";
+@import "variable";
+@import "default";
+
+// SECTION 1
+
+
+@media screen and(max-width:991.98px) {
+    .bicycle {
+        .container {
+            .row {
+                .col-lg-4 {
+                    order: 2;
+
+                    .bicycle-head {
+                        text-align: center;
+                        margin-top: 55px;
+
+                        .bicycle-content {
+                            p {
+                                text-align: center;
+
+                            }
+                        }
+                    }
+
+                }
+
+                .col-lg-8 {
+                    .bicycle-image {
+                        position: relative;
+                    }
+                }
+            }
+        }
+
+        .bicycle-road {
+            position: relative;
+            top: -370px;
+        }
+    }
+}
+
+@media screen and(max-width:425px) {
+    .bicycle {
+        .container {
+            .row {
+                .col-lg-4 {
+                    order: 2;
+
+                    .bicycle-head {
+                        text-align: center;
+
+                        .bicycle-content {
+                            p {
+                                text-align: center;
+
+                            }
+                        }
+                    }
+
+                }
+
+                .col-lg-8 {
+                    .bicycle-image {
+                        position: relative;
+                        top: -10px;
+                    }
+                }
+
+                // .col-lg-12 {
+                //     .row {
+                //         order: 1;
+
+                //         .col-lg-12 {
+                //             .bicycle-road {
+                //                 position: relative;
+                //                 z-index: -1;
+                //                 top: -75px;
+                //             }
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+}
+
+// @media screen and(max-width:991.98px) {
+//     .bicycle {
+//         .container {
+//             .row {
+//                 .col-lg-4 {
+//                     order: 2;
+
+//                     .bicycle-head {
+//                         text-align: center;
+
+//                         .bicycle-content {
+//                             p {
+//                                 text-align: center;
+
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .col-lg-8 {
+//                     margin-top: 120px;
+
+//                     .bicycle-image {
+//                         top: 160px;
+//                         text-align: center;
+
+//                         .img-fluid {
+//                             width: 57%;
+//                         }
+//                     }
+//                 }
+
+//                 .row {
+//                     order: 1;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media screen and(max-width:767.98px) {
+//     .bicycle {
+//         .container {
+//             .row {
+//                 .col-lg-8 {
+//                     .bicycle-image {
+//                         left: 0px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// @media screen and(max-width:425px) {
+//     .bicycle {
+//         .container {
+//             .row {
+//                 .col-lg-4 {
+//                     .bicycle-head {
+//                         .bicycle-heading {
+//                             p {
+//                                 font-size: 32px;
+//                             }
+//                         }
+
+//                         .bicycle-content {
+//                             p {
+//                                 font-size: 18px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .col-lg-8 {
+//                     margin-top: 15%;
+
+//                     .bicycle-image {
+//                         bottom: 80px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// @media screen and(max-width:320px) {
+//     .bicycle {
+//         .container {
+//             .row {
+//                 .col-lg-4 {
+//                     .bicycle-head {
+//                         .bicycle-heading {
+//                             p {
+//                                 font-size: 32px;
+//                             }
+//                         }
+
+//                         .bicycle-content {
+//                             p {
+//                                 font-size: 16px;
+//                             }
+//                         }
+//                     }
+
+//                 }
+
+//                 .col-lg-8 {
+//                     margin-top: 12%;
+
+//                     .bicycle-image {
+//                         bottom: 95px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// SECTION 2 
+
+@media screen and(max-width:991.98px) {
+    .amet {
+        margin: 0%;
+
+        .container {
+            .row {
+                .col-lg-6 {
+                    .amet-image {
+                        text-align: center;
+                    }
+                }
+
+                .col-lg-6 {
+                    .amet-head {
+                        .amet-heading {
+                            p {
+                                text-align: center;
+                            }
+                        }
+
+                        .amet-content {
+                            p {
+                                text-align: center;
+                            }
+                        }
+
+                        .amet-img {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:575.98px) {
+    .amet {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .amet-head {
+                        .amet-heading {
+                            p {
+                                font-size: 30px;
+                            }
+                        }
+
+                        .amet-content {
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .amet-img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:425.98px) {
+    .amet {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .amet-head {
+                        .amet-heading {
+                            p {
+                                font-size: 30px;
+                            }
+                        }
+
+                        .amet-content {
+                            p {
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:375.98px) {
+
+
+    .amet {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .amet-head {
+                        .amet-heading {
+                            p {
+                                font-size: 24px;
+                            }
+                        }
+
+                        .amet-content {
+                            p {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// SECTION 3 
+@media screen and(max-width:991.98px) {
+    .new-bicycle {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .newbicycle-img {
+                        .new-text {
+                            font-size: 20px;
+                            top: 12px;
+                            padding-right: 4px;
+                        }
+                    }
+
+                    .newluxury-img {
+                        .luxury-text {
+                            font-size: 20px;
+                            top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:767.98px) {
+    .new-bicycle {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .newbicycle-img {
+                        .new-text {
+                            font-size: 30px;
+                            top: 50px;
+                            
+                        }
+                    }
+
+                    .newluxury-img {
+                        padding-top: 25px;
+
+                        .luxury-text {
+                            font-size: 30px;
+                            top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:425px) {
+    .new-bicycle {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .newbicycle-img {
+                        .new-text {
+                            font-size: 18px;
+                            top: 20px;
+                            
+                        }
+                    }
+
+                    .newluxury-img {
+                        .luxury-text {
+                            font-size: 18px;
+                            top: 50px;
+                            padding-left: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// SECTION 4 
+
+@media screen and(max-width:991.98px) {
+    .product {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .our-product {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 29%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 29%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:425px) {
+    .product {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .our-product {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 20%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 20%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:320px) {
+    .product {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .our-product {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 14%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 14%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// SECTION 5 
+@media screen and(max-width:991.98px) {
+    .lia-shelton {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .carousel-inner {
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// SECTION 6 \
+@media screen and(max-width:1199.98px) {
+    .latest {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .row {
+                        .col-lg-4 {
+                            .latestblog-head {
+                                .latestblog-heading {
+                                    p {
+                                        font-size: 24px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:991.98px) {
+    .latest {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .latest-blog {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 32%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 32%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+
+                    .col-lg-4 {
+                        padding-top: 20px;
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and(max-width:425px) {
+    .latest {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .latest-blog {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 24%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 24%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:320px) {
+    .latest {
+        .container {
+            .row {
+                .col-lg-12 {
+                    .latest-blog {
+                        p {
+                            text-align: center;
+                            position: relative;
+
+                            &::after {
+                                content: "";
+                                display: block;
+                                width: 18%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                right: 0px;
+                                top: 30px;
+                            }
+
+                            &::before {
+                                content: "";
+                                display: block;
+                                width: 18%;
+                                height: 2px;
+                                background: #191970;
+                                position: absolute;
+                                left: 0px;
+                                top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// SECTION 7 
+
+@media screen and(max-width:991.98px) {
+    .shop {
+        .container {
+            .row {
+                .col-lg-3 {
+                    .shop-head {
+                        text-align: center;
+                    }
+                }
+
+                .col-lg-3 {
+                    .instagram-head {
+                        .instagram-heading {
+                            p {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:575.98px) {
+    .shop {
+        .container {
+            .row {
+                .col-lg-6 {
+                    .row {
+                        .col-lg-4 {
+                            .about-head {
+                                text-align: center;
+                            }
+
+                            .ourshop-head {
+                                text-align: center;
+                            }
+
+                            .contactus-head {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:425px) {
+    .shop {
+        .container {
+            .instagram-image {
+                padding: 0px 25px 0px 25px;
+            }
+        }
+    }
+
+}

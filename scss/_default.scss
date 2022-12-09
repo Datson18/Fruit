@@ -1,0 +1,603 @@
+// NAVBAR 
+
+.container-fluid {
+    .navbar {
+        .container {
+            .collapse {
+                .navbar-nav {
+                    li.nav-item {
+                        // padding-right: 40px;
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: "Roboto";
+                        text-align: center;
+
+                    }
+
+                    a.nav-link {
+
+                        &:hover {
+                            cursor: pointer;
+                            color: #035392;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// .navbar-nav .nav-link.active,
+// .navbar-nav .show>.nav-link {
+//     // color: var(--bs-navbar-active-color);
+//     // text-decoration: underline;
+//     // color: blue;
+//     &::after{
+//         content: "";
+//         display: block;
+//         width: 3%;
+//         height: 2px;
+//         background: #191970;
+//         position: absolute;
+
+//     }
+//     &:hover{
+//         cursor: pointer;
+//         color: #035392;
+
+//     }
+// }
+
+// SECTION 1 
+
+
+.bicycle {
+
+    .container {
+        .row {
+            .col-lg-4 {
+                .bicycle-head {
+                    .bicycle-heading {
+                        p {
+                            @include important-head;
+                        }
+                    }
+
+                    .bicycle-content {
+                        p {
+                            font-size: 20px;
+                            font-family: "Roboto";
+                            text-align: start;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .bicycle-btn {
+
+                        .btn {
+                            @include important-btn;
+                            clip-path: polygon(86% 0, 100% 100%, 0 100%, 0 0);
+                            border-radius: 0%;
+                            padding: 5px 25px;
+
+                        }
+                    }
+
+                }
+            }
+
+            .col-lg-8 {
+                .bicycle-image {
+                    position: relative;
+                }
+            }
+
+            // .col-lg-12 {
+            //     .row {
+            //         .col-lg-12 {
+            //             .bicycle-road {
+            //                 position: absolute;
+            //                 z-index: -1;
+            //                 top: 450px;
+            //                 // top: 65%;    
+            //             }
+            //         }
+            //     }
+            // }
+        }
+    }
+
+    .bicycle-road {
+        position: absolute;
+        top: 490px;
+        z-index: -1;
+    }
+}
+
+
+
+
+
+
+// .bicycle {
+//     .container {
+//         .row {
+//             .bicycle-head {
+//                 .bicycle-heading {
+//                     p {
+//                         @include important-head;
+//                     }
+//                 }
+
+//                 .bicycle-content {
+//                     p {
+//                         font-size: 20px;
+//                         font-family: "Roboto";
+//                         text-align: start;
+//                     }
+//                 }
+
+//                 .bicycle-btn {
+
+//                     .btn {
+//                         @include important-btn;
+//                         clip-path: polygon(86% 0, 100% 100%, 0 100%, 0 0);
+//                         border-radius: 0%;
+//                         padding: 5px 25px;
+
+//                     }
+//                 }
+//             }
+
+//             .col-lg-8 {
+//                 .bicycle-image {
+//                     position: absolute;
+//                 }
+
+//             }
+
+//             .row {
+//                 .col-lg-12 {
+//                     .bicycle-road {
+//                         position: relative;
+//                         z-index: -1;
+//                     }
+//                 }
+//             }
+
+//         }
+//     }
+// }
+
+// SECTION 2
+
+.amet {
+    margin-top: 120px;
+
+    .container {
+        .row {
+            .col-lg-6 {
+                .amet-head {
+                    .amet-heading {
+                        p {
+                            @include important-head
+                        }
+                    }
+
+                    .amet-content {
+                        p {
+                            font-size: 20px;
+                            font-family: "Roboto";
+                            text-align: start;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .amet-img {
+                        :hover {
+                            opacity: 0.6;
+                            cursor: pointer;
+                        }
+
+                        img.imag.img-fluid {
+                            padding: 0 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// SECTION 3 
+
+.new-bicycle {
+    .container {
+        .row {
+            .col-lg-6 {
+                .newbicycle-img {
+                    position: relative;
+
+                    .new-text {
+                        position: absolute;
+                        top: 50px;
+                        right: 0;
+                        font-size: 30px;
+                        line-height: 40px;
+                        color: #ffffff;
+                        font-weight: 700;
+                        font-family: "Roboto";
+                        padding-right: 20px;
+                    }
+
+                    :hover {
+                        opacity: 0.6;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .col-lg-6 {
+                .newluxury-img {
+                    position: relative;
+
+                    .luxury-text {
+                        position: absolute;
+                        top: 50px;
+                        left: 0;
+                        font-size: 30px;
+                        line-height: 40px;
+                        color: #848484;
+                        font-weight: 700;
+                        font-family: "Roboto";
+                        padding-left: 20px;
+                    }
+
+                    :hover {
+                        opacity: 0.6;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// SECTION 4 
+
+.product {
+    .container {
+        .row {
+            .col-lg-12 {
+                .our-product {
+                    p {
+                        @include important-head;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 77%;
+                            height: 2px;
+                            background: #191970;
+                            position: absolute;
+                            right: 0px;
+                            top: 30px;
+                        }
+                    }
+                }
+            }
+
+            .col-lg-3 {
+                .product-image {
+                    :hover {
+                        opacity: 0.6;
+                        cursor: pointer;
+                    }
+                }
+
+                .ourproduct-para {
+                    p {
+                        @include product-para
+                    }
+
+                    h4 {
+                        @include product-h;
+                        font-size: 20px;
+
+                    }
+
+                    h5 {
+                        text-align: center;
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// SECTION 5 
+
+
+.lia-shelton {
+    .container {
+        .row {
+            .col-lg-6 {
+                .lia-image {
+                    :hover {
+                        opacity: 0.6;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .col-lg-6 {
+                background-color: #035392;
+
+                .carousel-inner {
+                    position: relative;
+                    top: 60px;
+
+                    .carousel-item {
+                        p {
+                            margin: 0%;
+                            color: #ffffff;
+                            font-family: Roboto;
+                            font-size: 20px;
+                        }
+
+                        p:nth-child(3) {
+                            color: gray;
+                            font-family: cursive;
+                            font-size: 15px;
+                        }
+
+                        .carousel-caption {
+                            position: relative;
+                            bottom: 0px;
+                            left: 0%;
+
+                            p {
+                                text-align: center;
+                                padding: 0 65px 0 65px;
+                                font-size: 16px;
+                                font-family: "Roboto";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// SECTION 6 
+
+
+.latest {
+    .container {
+        .row {
+            .col-lg-12 {
+                .latest-blog {
+                    p {
+
+                        @include important-head;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 77%;
+                            height: 2px;
+                            background: #191970;
+                            position: absolute;
+                            right: 0px;
+                            top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .col-lg-12 {
+            .row {
+
+                .col-lg-4 {
+                    .latestblog-head {
+                        &:hover {
+                            border: 1px solid #035392;
+                            cursor: pointer;
+                        }
+
+                        // border: 1px solid #035392;
+
+                        .latestblog-image {
+                            &:hover {
+                                opacity: 0.6;
+                                cursor: pointer;
+                            }
+                        }
+
+
+
+                        .latestblog-heading {
+                            p {
+                                @include product-para;
+                                text-align: start;
+                                padding-left: 15px;
+                                color: #202020;
+
+                                &:hover {
+                                    color: #035392;
+                                }
+                            }
+
+                            span {
+                                @include product-h;
+                                padding-left: 15px;
+                            }
+
+                        }
+
+                        .latestblog-content {
+                            p {
+                                font-size: 16px;
+                                font-family: "Roboto";
+                                text-align: start;
+                                color: #828282;
+                                padding-left: 15px;
+                                font-weight: 700;
+
+                            }
+                        }
+
+                        .latestblog-btn {
+                            padding-left: 15px;
+                            padding-bottom: 15px;
+
+                            .btn {
+                                @include important-btn;
+                                clip-path: polygon(86% 0, 100% 100%, 0 100%, 0 0);
+                                border-radius: 0%;
+                                padding: 5px 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// SECTION 7 
+
+.shop {
+    .container {
+        .row {
+            .col-lg-3 {
+                .shop-head {
+                    .shop-heading {
+                        p {
+                            font-size: 14px;
+                            line-height: 25px;
+                            color: #aeaeae;
+                            font-weight: 400;
+                            font-family: "Roboto";
+                            padding-top: 10px;
+                        }
+                    }
+
+                    .shop-image {
+                        .img-fluid {
+                            padding: 0 5px;
+                        }
+                    }
+                }
+            }
+
+            .col-lg-6 {
+                .row {
+                    .col-lg-4 {
+                        .about-head {
+                            .about-heading {
+                                p {
+                                    @include about-h;
+                                }
+                            }
+
+                            .about-content {
+                                p {
+                                    color: #aeaeae;
+                                    font-family: "Roboto";
+                                    font-size: 14px;
+                                    line-height: 25px;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-lg-4 {
+                        .ourshop-head {
+                            .ourshop-heading {
+                                p {
+                                    @include about-h;
+                                }
+                            }
+
+                            .ourshop-content {
+                                p {
+                                    color: #aeaeae;
+                                    font-family: "Roboto";
+                                    font-size: 14px;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-lg-4 {
+                        .contactus-head {
+                            .contactus-heading {
+                                p {
+                                    @include about-h;
+                                }
+                            }
+
+                            .contactus-cnotent {
+                                p {
+                                    color: #aeaeae;
+                                    font-family: "Roboto";
+                                    font-size: 14px;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-lg-3 {
+                .instagram-head {
+                    .instagram-heading {
+                        p {
+                            @include about-h;
+                        }
+                    }
+                }
+
+                .row {
+                    .col-lg-4 {
+                        .instagram-image {
+                            :hover {
+                                opacity: 0.6;
+                                cursor: pointer;
+                            }
+                        }
+
+                        padding: 0%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.foot {
+    .foot-head {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 35px;
+        color: #464646;
+        font-weight: 400;
+        font-family: "Roboto";
+        text-align: center;
+    }
+}
